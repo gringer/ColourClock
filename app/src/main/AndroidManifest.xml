@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.gringene.colourclock" >
 
+    <uses-sdk android:minSdkVersion="16"
+        android:targetSdkVersion="L" />
+
+    <supports-screens android:largeScreens="true"
+        android:xlargeScreens="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -16,7 +22,5 @@
             </intent-filter>
         </activity>
     </application>
-    <uses-sdk android:minSdkVersion="16"
-        android:targetSdkVersion="L" />
 
 </manifest>
