@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 'android-L'
+    compileSdkVersion 'android-20'
     buildToolsVersion "20.0.0"
 
     defaultConfig {
         applicationId "org.gringene.colourclock"
         minSdkVersion 16
-        targetSdkVersion 'L'
-        versionCode 2
-        versionName "1.1"
+        targetSdkVersion 20
+        versionCode 3
+        versionName "1.11"
     }
     buildTypes {
         release {

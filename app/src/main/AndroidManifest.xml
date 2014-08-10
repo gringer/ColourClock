@@ -3,7 +3,7 @@
     package="org.gringene.colourclock" >
 
     <uses-sdk android:minSdkVersion="16"
-        android:targetSdkVersion="L" />
+        android:targetSdkVersion="20" />
 
     <supports-screens android:largeScreens="true"
         android:xlargeScreens="true" />
