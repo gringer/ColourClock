@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.gringene.colourclock" >
-
-    <uses-sdk android:minSdkVersion="16"
-        android:targetSdkVersion="20" />
-
-    <supports-screens android:largeScreens="true"
-        android:xlargeScreens="true" />
-
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.gringene.colourclock">
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="34"
+        tools:ignore="GradleOverrides" />
+    <supports-screens />
     <application
-        android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:label="@string/app_name">
         <activity
             android:name="ClockActivity"
-            android:label="@string/app_name" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
